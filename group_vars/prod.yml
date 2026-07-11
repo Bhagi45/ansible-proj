@@ -1,2 +1,2 @@
-env=prod
-portnum=8081
+env: prod
+portnum: 8081
