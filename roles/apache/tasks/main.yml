@@ -1,2 +1,6 @@
 ---
 # tasks file for apache
+- name: installing apache
+  yum:
+    name: abc 
+    state: present
