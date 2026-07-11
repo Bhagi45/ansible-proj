@@ -1,2 +1,2 @@
-env:dev
-portnum:80
+env: dev
+portnum: 80
