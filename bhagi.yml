@@ -8,3 +8,5 @@
        yum:
          name: git
          state: present
+     - debug:
+         msg: "port num for the environement {{env}} is {{portnum}}"
