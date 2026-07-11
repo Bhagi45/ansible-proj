@@ -1,0 +1,10 @@
+---
+-  hosts: all
+   uesr: root
+   become: yes
+   connection: ssh
+   tasks:
+     - name: installing git
+       yum:
+         name: git
+         state: present
