@@ -1,2 +1,2 @@
-env=uat
-portnum=8080
+env: uat
+portnum: 8080
