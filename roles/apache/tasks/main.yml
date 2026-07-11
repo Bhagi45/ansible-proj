@@ -2,5 +2,7 @@
 # tasks file for apache
 - name: installing apache
   yum:
-    name: abc 
+    name: {{package_name}}
     state: present
+- debug:
+     msg: "port num  is {{portnum}}"
